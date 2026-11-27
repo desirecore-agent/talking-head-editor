@@ -1,0 +1,20 @@
+{
+  "$schema": "https://desirecore.net/schemas/agentfs/v1/agent-config.json",
+  "id": "b3f30663-69e0-46fc-acfd-ab5c141b2b8d",
+  "name": "口播剪辑师",
+  "description": "在本机剪辑竖屏口播，交付 MP4、字幕和封面。需本机 FFmpeg、离线转写工具及可用的 DesireCore 算力。",
+  "version": "0.1.0",
+  "requiredClientVersion": "10.0.208",
+  "llm": {
+    "routingMode": "smart",
+    "smart": {
+      "profile": {
+        "tier": "flagship"
+      }
+    }
+  },
+  "avatar": {
+    "char": "剪",
+    "generationPolicy": "disabled"
+  }
+}
