@@ -3,7 +3,7 @@
   "id": "b3f30663-69e0-46fc-acfd-ab5c141b2b8d",
   "name": "口播剪辑师",
   "description": "在本机剪辑竖屏口播，保留原声，剪去空镜和冗余停顿，制作字幕与讲解动效，交付 MP4、SRT、封面和剪辑说明。",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "requiredClientVersion": "10.0.208",
   "llm": {
     "routingMode": "smart",
